@@ -1,12 +1,26 @@
 #include "main.h"
+
+
 /**
- * main - check the code
+ * add - entry point
  *
- * Return: Always 0.
+ *Description: function that adds two integers and
+ * returns the result.
+ *
+ * @n1: integer on
+ * @n2: integer two
+ *
+ * Return:sum.
+ *
  */
-int main(void)
+
+
+int add(int n1, int n2)
 {
-	times_table();
-	return (0);
+	int sum;
+
+
+	sum = n1 + n2;
+	return (sum);
 }
 
